@@ -10,6 +10,7 @@ class HomeController extends Controller
     public function index()
     {
         $title = 'API Mercado Livre';
+        $teste = 'teste';
         return view('admin.pages.home.index', compact('title'));
     }
 }
